@@ -1,0 +1,222 @@
+.body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.pageTitle {
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+/**
+ * Line Block
+ */
+.lineButton {
+	padding: 5px 2px;
+}
+
+.btn-orange, .btn-red, .btn-blue {
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 0.95em;
+	width: 32%;
+	border-radius: 0;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.btn-orange {
+	background: #FD8A03;
+}
+
+.btn-red {
+	background: #FA2D27;
+}
+
+.btn-blue {
+	background: #2F5DA6;
+}
+
+/**
+ * Stop Selection Buttoms Group
+ */
+.stopButton {
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+.stopGroupWrap {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.stopGroup {
+	width: 100%;
+	font-size: 0.95em;
+	padding: 5px;
+	background: #fff;
+	color: #000;
+	border-radius: 0px;
+	text-shadow: none;
+}
+
+.stopGroupOrange:hover, .stopGroupOrange:focus, .stopGroupOrange:active {
+	background: #FD8A03;
+	color: #fff;
+}
+
+.stopGroupRed:hover, .stopGroupRed:focus, .stopGroupRed:active{
+	background: #FA2D27;
+	color: #fff;
+}
+
+.stopGroupBlue:hover, .stopGroupBlue:focus, .stopGroupBlue:active {
+	background: #2F5DA6;
+	color: #fff;
+}
+
+/**
+ * Large Stop Name Sign
+ */
+.stopBlock {
+	margin-top: -15px;
+}
+.stopName {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+
+.stopOrange {
+	background: #FD8A03;
+	border: 1px solid black;
+	border-bottom: 0;
+}
+
+.stopRed {
+	background: #FA2D27;
+	border: 1px solid black;
+	border-bottom: 0;
+}
+
+.stopBlue {
+	background: #2F5DA6;
+	border: 1px solid black;
+	border-bottom: 0;
+}
+
+/**
+ * Last Loading Time
+ */
+.currentTime {
+	padding: 5px;
+	margin-top: -10px;
+	border: 1px solid black;
+	border-top: 0px;
+	font-size: 16px;
+}
+
+
+/**
+ * Error Infomation
+ */
+
+.errorInfo {
+	color: red;
+	margin-top: 10px;
+}
+
+/**
+ * refresh and alert button
+ */
+.refresh, .alertInfo{
+	margin-top: 10px;
+	font-size: 1.2em;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+}
+
+
+/**
+ * Direction, Trip Info Panel
+ */
+
+.directionGroup {
+	margin-top: -10px
+}
+
+.directionList {
+	color: #fff;
+	margin-top: 15px;
+	border-radius: 0px;
+	padding: 3px 15px;
+	border: 1px solid black;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+}
+
+.directionListOrange {
+	background: #FD8A03;
+}
+
+.directionListRed {
+	background: #FA2D27;
+}
+
+.directionListBlue {
+	background: #2F5DA6;
+}
+
+.directionName {
+	margin: 5px;
+	line-height: 1;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+.tripGroup {
+	margin-bottom: 10px;
+}
+.tripList {
+	background: #fff;
+	color: #000;
+	padding: 2px 15px;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	border: none;
+	border-top: 1px solid #ddd;
+}
+
+.tripList:first-child {
+	border-top: none;
+}
+
+.tripInfo {
+	font-size: 15px;
+}
+
+.tripInfo .infoIcon {
+	color: #999;
+}
+.tooltip-inner {
+	text-align: left;
+}
+
+
+/**
+ * Footer
+ */
+.footer {
+	position: relative;
+	bottom: 0;
+	padding-top: 20px;
+}
