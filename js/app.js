@@ -1,8 +1,43 @@
 var lineRouteQuery = {
 	"Red Line" : "route=931_&route=933_",
-	"Orange Line" : "route=903_",
-	"Blue Line" : "route=946_"
+	"Orange Line" : "route=903_&route=913_",
+	"Blue Line" : "route=946_&route=948_",
+	"Green Line-B": "route=810_&route=813_&route=823_",
+	"Green Line-C": "route=830_&route=831_",
+	"Green Line-D": "route=840_&route=842_&route=851_&route=852_",
+	"Green Line-E": "route=880_&route=882_"
 };
+
+var routeInfo = [
+{
+	name: "Red Line",
+	id: [931, 933]
+}, 
+{
+	name: "Orange Line",
+	id: [903, 913]
+}, 
+{
+	name: "Blue Line",
+	id: [946, 948]
+},
+{
+	name: "Green Line-B",
+	id: [810, 813, 823]
+},
+{
+	name: "Green Line-C",
+	id: [830, 831]
+},
+{
+	name: "Green Line-D",
+	id: [840, 842, 851, 852]
+},
+{
+	name: "Green Line-E",
+	id: [880, 882]
+}
+]
 
 (function() {
 
